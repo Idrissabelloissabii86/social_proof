@@ -1,0 +1,151 @@
+/* Style d'initialisation générale */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body style */
+body{
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* Container principale */
+#container{
+    max-width: 1024px;
+    padding: 20px;
+}
+/* style section rated et info */
+.top{
+    display: flex;
+}
+.top_users{
+    width: 30%;
+}
+.top_users_products{
+    color: #3d0a4e;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.top_users_products_info{
+    color: #777;
+    margin-top: 15px;
+    line-height: 1.5rem;
+}
+.top_rated_stars_container{
+    width: 70%;
+    gap: 20rem;
+}
+.top_rated_stars{
+    display: flex;
+    align-items: center;
+}
+.top_rated_stars{
+    background-color: #f5f1f7;
+    border-radius: 8px;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+.premier{
+    margin: 0px 20px 10px 80px;
+}
+.deuxieme{
+    margin: 20px 40px 10px 40px;
+}
+.troisieme{
+    margin: 20px 60px 10px 20px;
+}
+.premier:hover, .deuxieme:hover, .troisieme:hover{
+    background-color: #dbdada;
+}
+.fa-solid{
+    color: orange;
+    font-size: 1rem;
+    font-weight: bold;
+}
+/* Style section testimonial */
+.testimonial{
+    margin-top: 50px;
+}
+.card_flex{
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+.user_profile {
+  background-color: #4b0a63;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+.user_profile:hover{
+    background-color: #8f33ad;
+}
+
+.user_profile-header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+img{
+    background-color: #fafafa;
+    border-radius: 50px;
+}
+.user_comment{
+    margin-top: 15px;
+    line-height: 1.7rem;
+    font-size: 0.95rem;
+}
+.user_status{
+    color: #c9a2db;
+}
+.name-and-status{
+    line-height: 1.4rem;
+}
+@media screen and (max-width: 768px) {
+    .testimonial{
+        align-items: center;
+        justify-content: center;
+    }
+    .top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .top_users, .top_rated_stars_container {
+        width: 100%;
+    }
+    .top_users_products, .top_users_products_info {
+        text-align: center;
+    }
+    .top_rated_stars{
+        margin: 10px 0;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+        align-items: center;
+    }
+    .card_flex {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+    .alone{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .top_rated_stars_container{
+        width: 100%;
+        padding: 0px;
+    }
+}
