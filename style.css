@@ -18,7 +18,7 @@ body{
 }
 /* Container principale */
 #container{
-    max-width: 1024px;
+    max-width: 1100px;
     padding: 20px;
 }
 /* style section rated et info */
@@ -99,6 +99,7 @@ body{
 img{
     background-color: #fafafa;
     border-radius: 50px;
+    width: 50px;
 }
 .user_comment{
     margin-top: 15px;
@@ -136,11 +137,11 @@ img{
     }
     .card_flex {
         flex-direction: column;
-        width: 80%;
+        width: 400px;
         margin: auto;
     }
     .alone{
-        width: 80%;
+        width: 400px;
         margin: auto;
         margin-top: 20px;
     }
@@ -148,4 +149,14 @@ img{
         width: 100%;
         padding: 0px;
     }
+}
+
+@media  (max-width: 425px) {
+    .card_flex{
+        width: auto;
+    }
+    .alone{
+        width: auto;
+    }
+    
 }
