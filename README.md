@@ -7,7 +7,14 @@ Le code est structurer en deux sections top et testimonial, contenant respective
 
 HTML et CSS
 
+## Capture d'écran
 
+![Image de la page](./images/Capture-web.png)
+
+
+## Demo
+
+https://idrissabelloissabii86.github.io/social_proof
 ## Auteur
 
 BELLO I. Idrissa
