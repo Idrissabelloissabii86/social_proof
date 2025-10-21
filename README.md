@@ -9,7 +9,7 @@ HTML et CSS
 
 ## Capture d'écran
 
-![Image de la page](./images/Capture-web.png)
+![Image de la page](./images/capture-web.png)
 
 
 ## Demo
